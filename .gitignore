@@ -1,0 +1,15 @@
+.env
+.idea
+build/
+allure-report/
+
+ConfigDumpInfo.xml
+build
+out
+check.bat
+.scannerwork
+*.epf
+oscript_modules/
+
+!fixtures/**/*.epf
+*.ospx
