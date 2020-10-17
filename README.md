@@ -48,7 +48,7 @@
 Выполнить команды
 
 ```
-cd back/src/os/pluck
+cd pluck
 opm build .
 ```
 
@@ -59,7 +59,7 @@ opm build .
 Выполнить команды
 
 ```
-cd back/src/os/pluck
+cd pluck
 opm install -f pluck-x.x.x.ospx
 ```
 
