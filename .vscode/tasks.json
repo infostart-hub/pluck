@@ -14,7 +14,25 @@
     // "showOutput": "silent",
     "tasks": [
         {
-            "taskName": "Testing project",
+            "taskName": "Full test project with coverage",
+            "args": [
+                 "oscript",
+                "${workspaceRoot}/task/coverage.os"
+            ],
+            "echoCommand": true,
+            "showOutput": "always",
+            "isTestCommand": false,
+            "problemMatcher": {
+                "fileLocation": "absolute",
+                "pattern": {
+                    "regexp": "{Модуль\\s+(.+)\\s\\/\\s.*:\\s+(\\d+)\\s+\\/\\s+([^{]*)",
+                    "file": 1,
+                    "location": 2,
+                    "message": 3
+                }
+            }
+        },
+        "taskName": "Testing project - 1testrunner",
             "args": [
                  "1testrunner",
                 "-runall",
