@@ -13,3 +13,6 @@ oscript_modules/
 
 !fixtures/**/*.epf
 *.ospx
+*.log
+bdd-exec.xml
+coverage/
